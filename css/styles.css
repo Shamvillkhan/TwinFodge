@@ -159,15 +159,31 @@
             text-shadow: none;
         }
 
-        .navbar .btn-primary {
-            background-color: var(--neon-yellow);
-            color: var(--black);
-            padding: 10px 24px;
-            border-radius: 8px;
-            font-weight: 600;
-            text-decoration: none;
-            text-shadow: none;
-        }
+       .navbar .btn-primary {
+    background-color: var(--neon-yellow);
+    color: var(--black);
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.navbar .btn-primary:hover {
+    background-color: var(--neon-yellow);
+    color: var(--black);
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(240, 255, 66, 0.6);
+    opacity: 1;
+}
+.navbar .btn-primary,
+.navbar .btn-primary:hover,
+.navbar .btn-primary:focus,
+.navbar .btn-primary:active {
+    text-shadow: none !important;
+}
+
         /* ===== END FIXED NAVBAR CSS ===== */
 
         /* Sections */
@@ -811,3 +827,147 @@
                 height: 6px;
             }
         }
+
+
+        /*  */
+ /* Mobile Responsive Styles for About Section */
+    @media (max-width: 768px) {
+        /* Value proposition grid */
+        .value-grid {
+            grid-template-columns: 1fr !important;
+            gap: 20px !important;
+        }
+        
+        .value-card {
+            padding: 30px 20px !important;
+        }
+        
+        .value-card h3 {
+            font-size: 22px !important;
+        }
+        
+        /* Problem/Solution grid */
+        .problem-grid {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+        }
+        
+        .problem-solution {
+            padding: 40px 20px !important;
+        }
+        
+        .problem-solution h2 {
+            font-size: 28px !important;
+            margin-bottom: 25px !important;
+        }
+        
+        .problem-solution ul li {
+            margin-bottom: 20px !important;
+        }
+        
+        /* Results grid */
+        .results-grid {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+        }
+        
+        .result-item div {
+            font-size: 40px !important;
+        }
+        
+        /* CTA section */
+        .cta-section {
+            padding: 40px 20px !important;
+        }
+        
+        .cta-section h2 {
+            font-size: 24px !important;
+        }
+        
+        .cta-section p {
+            font-size: 14px !important;
+            padding: 0 10px !important;
+        }
+        
+        .cta-section .btn-primary {
+            padding: 12px 30px !important;
+            font-size: 14px !important;
+        }
+    }
+
+    /* Extra small devices */
+    @media (max-width: 480px) {
+        .problem-solution ul li {
+            flex-direction: column !important;
+            text-align: center !important;
+            gap: 10px !important;
+        }
+        
+        .problem-solution ul li span {
+            margin-bottom: 5px !important;
+        }
+        
+        .value-card {
+            padding: 25px 15px !important;
+        }
+        
+        .value-card h3 {
+            font-size: 20px !important;
+        }
+    }
+
+    /* Tablet devices */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .value-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+        
+        .value-card:last-child {
+            grid-column: span 2 !important;
+            max-width: 50% !important;
+            margin: 0 auto !important;
+        }
+        
+        .results-grid {
+            gap: 20px !important;
+        }
+        
+        .result-item div {
+            font-size: 40px !important;
+        }
+    }
+
+    /* Ensure text is readable on all devices */
+    .about-content p,
+    .value-card p,
+    .problem-solution p,
+    .result-item p {
+        font-size: clamp(14px, 3vw, 16px) !important;
+    }
+
+    .about-content h2 {
+        font-size: clamp(24px, 5vw, 36px) !important;
+    }
+
+    .section-title {
+        font-size: clamp(24px, 6vw, 48px) !important;
+    }
+
+    .section-subtitle {
+        font-size: clamp(14px, 4vw, 18px) !important;
+        padding: 0 20px !important;
+    }
+
+    /* Stats grid mobile */
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+        gap: 20px !important;
+    }
+
+    .stat-number {
+        font-size: clamp(30px, 8vw, 40px) !important;
+    }
+
+    .stat-label {
+        font-size: clamp(12px, 3vw, 14px) !important;
+    }
