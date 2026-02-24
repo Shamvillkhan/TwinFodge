@@ -124,7 +124,7 @@
             setInterval(() => {
                 let nextSlide = (currentSlide + 1) % totalSlides;
                 changeSlide(nextSlide);
-            }, 500);
+            }, 2000);
             
             // Click indicators to change slides
             indicators.forEach((indicator, index) => {
