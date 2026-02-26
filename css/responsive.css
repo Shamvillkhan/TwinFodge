@@ -1,4 +1,4 @@
-  /* Responsive styles for services grid */
+  /* Responsive styles for services grid
     @media screen and (max-width: 768px) {
         .services .services-grid {
             grid-template-columns: repeat(2, 1fr) !important;
@@ -26,7 +26,7 @@
     }
     
     /* For very small screens */
-    @media screen and (max-width: 480px) {
+    /* @media screen and (max-width: 480px) {
         .services .services-grid {
             gap: 10px;
         }
@@ -47,7 +47,7 @@
             font-size: 11px !important;
         }
     }
-
+ */
 
 
     
