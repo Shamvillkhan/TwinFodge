@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Presence Builders | Web Development & Digital Marketing</title>
+    
+<link rel="stylesheet" href="/assets/css/responsive.css">
+<link rel="stylesheet" href="/assets/css/package.css">
+<link rel="stylesheet" href="/assets/css/nav.css">
+<link rel="stylesheet" href="/assets/css/testing.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">Web<span>see</span></div>
+        <div class="nav-links" id="navLinks">
+            <a href="/index.html">Home</a>
+            <a href="/pages/about.html">About</a>
+            <a href="/pages/service.html">Services</a>
+            <a href="/pages/projects.html">Projects</a>
+          
+            <a href="/pages/contactus.html">Contact</a>
+            <a href="/pages/contactus.html" class="btn-primary">Get Started</a>
+        </div>
+         <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+
+<!-- Services Section - FULL DETAILS PAGE (service.html) -->
+<section class="services" id="services">
+    <!-- Animated Background -->
+    <div class="services-background">
+        <div class="services-orb orb1"></div>
+        <div class="services-orb orb2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+           <span class="section-badge">
+                    <i class="fas fa-gem"></i> What we do
+                </span>
+            <h2 class="section-title">We Don't Just Deliver Services — <br>We <span class="gradient-text">Transform Businesses</span></h2>
+            <p class="section-subtitle">Every business is unique, and so is our approach. Here's exactly what you get with each service, including complete pricing details.</p>
+        </div>
+
+        <!-- Services Grid - Full Cards with ALL Features + Pricing -->
+        <div class="services-grid">
+            <!-- Service 1 - Web Development -->
+            <div class="service-card" id="web-development">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Custom websites that bring you customers, not just visitors. Built with modern frameworks like Next.js, React, and Node.js for exceptional performance.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Custom website design tailored to your brand</li>
+                        <li><i class="fas fa-check-circle"></i> Fully responsive mobile-friendly layout</li>
+                        <li><i class="fas fa-check-circle"></i> SEO optimized structure and meta tags</li>
+                        <li><i class="fas fa-check-circle"></i> Lightning-fast loading speed optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Modern UI/UX implementation</li>
+                        <li><i class="fas fa-check-circle"></i> Built with Next.js, React & Node.js</li>
+                        <li><i class="fas fa-check-circle"></i> Security & malware protection</li>
+                        <li><i class="fas fa-check-circle"></i> 3 months free maintenance & support</li>
+                    </ul>
+                </div>
+                
+                <div class="service-footer">
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">999</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Service 2 - UI/UX Design -->
+            <div class="service-card" id="ui-ux-design">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Designs that guide your visitors exactly where you want them. Professional design services including Figma prototypes and complete brand identity.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> User research & audience analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Interactive wireframes & prototypes</li>
+                        <li><i class="fas fa-check-circle"></i> Visual design & branding integration</li>
+                        <li><i class="fas fa-check-circle"></i> User testing & feedback implementation</li>
+                        <li><i class="fas fa-check-circle"></i> Accessibility compliance (WCAG)</li>
+                        <li><i class="fas fa-check-circle"></i> Complete design system creation</li>
+                        <li><i class="fas fa-check-circle"></i> Figma design files delivered</li>
+                        <li><i class="fas fa-check-circle"></i> Print design materials included</li>
+                    </ul>
+                </div>
+                
+                <div class="service-footer">
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">599</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Service 3 - Digital Marketing (Featured) -->
+            <div class="service-card featured" id="digital-marketing">
+                <div class="featured-badge">Most Popular 🔥</div>
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Turn strangers into customers with data-driven marketing. Complete strategy including ads, email, and social media management.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Targeted ad campaigns (Google/Facebook/Instagram)</li>
+                        <li><i class="fas fa-check-circle"></i> Email marketing automation setup</li>
+                        <li><i class="fas fa-check-circle"></i> Social media management & content creation</li>
+                        <li><i class="fas fa-check-circle"></i> Monthly performance analytics & reporting</li>
+                        <li><i class="fas fa-check-circle"></i> Conversion rate optimization (CRO)</li>
+                        <li><i class="fas fa-check-circle"></i> Retargeting strategy implementation</li>
+                        <li><i class="fas fa-check-circle"></i> Competitor analysis & insights</li>
+                        <li><i class="fas fa-check-circle"></i> A/B testing of ad creatives</li>
+                    </ul>
+                </div>
+                
+                <div class="service-footer">
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">799</span>
+                        <span class="period">per month</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Service 4 - Social Media Management -->
+            <div class="service-card" id="social-media">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Social Media Management</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Build a community that actually engages with your brand. Complete social media presence management across all major platforms.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Daily content posting & scheduling</li>
+                        <li><i class="fas fa-check-circle"></i> Community engagement & response management</li>
+                        <li><i class="fas fa-check-circle"></i> Custom graphics & video creation</li>
+                        <li><i class="fas fa-check-circle"></i> Growth analytics & audience insights</li>
+                        <li><i class="fas fa-check-circle"></i> Hashtag strategy & trend research</li>
+                        <li><i class="fas fa-check-circle"></i> Monthly content calendar</li>
+                        <li><i class="fas fa-check-circle"></i> Influencer outreach coordination</li>
+                        <li><i class="fas fa-check-circle"></i> Paid social campaign management</li>
+                    </ul>
+                </div>
+                
+                <div class="service-footer">
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">499</span>
+                        <span class="period">per month</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Service 5 - SEO Optimization -->
+            <div class="service-card" id="seo">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Get found on Google without paying for ads. Comprehensive SEO strategy that builds sustainable organic traffic.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Comprehensive keyword research</li>
+                        <li><i class="fas fa-check-circle"></i> On-page SEO optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Technical SEO audit & fixes</li>
+                        <li><i class="fas fa-check-circle"></i> Quality backlink building strategy</li>
+                        <li><i class="fas fa-check-circle"></i> Content strategy development</li>
+                        <li><i class="fas fa-check-circle"></i> Monthly rank tracking & reporting</li>
+                        <li><i class="fas fa-check-circle"></i> Local SEO optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Competitor backlink analysis</li>
+                    </ul>
+                </div>
+                
+                <div class="service-footer">
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">399</span>
+                        <span class="period">per month</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Service 6 - Brand Strategy -->
+            <div class="service-card" id="brand-strategy">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Brand Strategy</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Create a brand that people remember and trust. Complete brand identity development from strategy to execution.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Complete brand identity design</li>
+                        <li><i class="fas fa-check-circle"></i> Logo & visual asset creation</li>
+                        <li><i class="fas fa-check-circle"></i> Brand voice & messaging development</li>
+                        <li><i class="fas fa-check-circle"></i> Target audience analysis & personas</li>
+                        <li><i class="fas fa-check-circle"></i> Competitor research & positioning</li>
+                        <li><i class="fas fa-check-circle"></i> Comprehensive brand guidelines</li>
+                        <li><i class="fas fa-check-circle"></i> Marketing collateral design</li>
+                        <li><i class="fas fa-check-circle"></i> Brand strategy roadmap</li>
+                    </ul>
+                </div>
+                
+                <div class="service-footer">
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">799</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get Started →</a>
+                </div>
+            </div>
+        </div>
+
+      
+
+        <!-- Consultation CTA -->
+        <div class="services-simple-cta">
+            <h3>Not sure which service you need?</h3>
+            <p>Book a free 30-minute strategy call. No pressure, just honest advice from experienced professionals.</p>
+            <a href="#contact" class="cta-simple-btn">
+                <i class="fas fa-calendar-check"></i>
+                Book Your Free Call
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Packages Section - With Your Brand Color (#72b01d) -->
+<section class="packages" id="packages">
+    <!-- Animated Background (matching services section) -->
+    <div class="packages-background">
+        <div class="packages-orb orb1"></div>
+        <div class="packages-orb orb2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+            <span class="section-badge">
+                <i class="fas fa-gem"></i> Our Packages
+            </span>
+            <h2 class="section-title" ;">Choose the Perfect Package for <br><span class="gradient-text" style="background: linear-gradient(135deg, #72b01d, #8ed33c); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Your Business Needs</span></h2>
+<p class="section-subtitle">
+All packages are built to strengthen your brand, increase visibility, and drive real business results.
+</p>        </div>
+
+        <!-- Packages Grid -->
+        <div class="packages-grid">
+            <!-- Starter Package -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3>Starter Package</h3>
+                    <div class="package-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">9,999</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <div class="package-delivery">
+                        <i class="fas fa-clock" style="color: #72b01d;"></i>
+                        <span>Delivered in 7 days</span>
+                    </div>
+                </div>
+                
+                <div class="package-description">
+                    <p>Perfect for small businesses and startups ready to establish their online presence.</p>
+                </div>
+                
+                <div class="package-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Static website (up to 5 pages)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Fully responsive design</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Domain registration (.com/.in)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> 1 year hosting included</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> SSL certificate included</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Basic SEO setup</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Contact form integration</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> 2 rounds of revisions</li>
+                    </ul>
+                </div>
+                
+                <div class="package-footer">
+                    <a href="#contact" class="package-btn" style="background: #72b01d; color: white;">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Professional Package (Featured) -->
+            <div class="package-card featured">
+                <div class="featured-badge" style="background: #72b01d; color: white;">Most Popular 🔥</div>
+                <div class="package-header">
+                    <h3>Professional Package</h3>
+                    <div class="package-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">24,999</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <div class="package-delivery">
+                        <i class="fas fa-clock" style="color: #72b01d;"></i>
+                        <span>Delivered in 14 days</span>
+                    </div>
+                </div>
+                
+                <div class="package-description">
+                    <p>Ideal for growing businesses with dynamic needs and content management requirements.</p>
+                </div>
+                
+                <div class="package-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Dynamic website (up to 10 pages)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Content Management System (CMS)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Advanced responsive design</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Domain + hosting (1 year)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Premium SSL certificate</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Advanced SEO optimization</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Social media integration</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Google Analytics setup</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Email hosting (5 accounts)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> 3 rounds of revisions</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Basic maintenance (3 months)</li>
+                    </ul>
+                </div>
+                
+                <div class="package-footer">
+                    <a href="#contact" class="package-btn" style="background: #72b01d; color: white;">Get Started →</a>
+                </div>
+            </div>
+
+            <!-- Enterprise Package -->
+            <div class="package-card">
+                <div class="package-header">
+                    <h3>Enterprise Package</h3>
+                    <div class="package-price">
+                        <span class="currency">₹</span>
+                        <span class="amount">49,999</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <div class="package-delivery">
+                        <i class="fas fa-clock" style="color: #72b01d;"></i>
+                        <span>Delivered in 30 days</span>
+                    </div>
+                </div>
+                
+                <div class="package-description">
+                    <p>Complete solution for established businesses with advanced functionality requirements.</p>
+                </div>
+                
+                <div class="package-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Custom web application</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> E-commerce functionality</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Advanced CMS with user roles</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Premium hosting (1 year)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Multi-domain SSL certificate</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Advanced SEO + marketing tools</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Payment gateway integration</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Custom API development</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Mobile app (basic version)</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Email marketing setup</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Custom analytics dashboard</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Unlimited revisions</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> 6 months maintenance included</li>
+                        <li><i class="fas fa-check-circle" style="color: #72b01d;"></i> Priority support</li>
+                    </ul>
+                </div>
+                
+                <div class="package-footer">
+                    <a href="#contact" class="package-btn" style="background: #72b01d; color: white;">Get Started →</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Custom Package CTA -->
+        <div class="custom-package-cta">
+            <h3>Need something custom?</h3>
+            <p>We also offer fully customized packages tailored to your specific requirements.</p>
+            <a href="#contact" class="cta-simple-btn" style="border-color: #72b01d; color: #72b01d;">
+                <i class="fas fa-comment"></i>
+                Talk to Us About Your Project
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+   <!-- Footer - Ultimate Edition -->
+<footer class="footer">
+    <!-- Animated Wave Background -->
+    <div class="footer-wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#72b01d" fill-opacity="0.05" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,170.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </div>
+
+    <div class="footer-container">
+        <!-- Main Footer Content -->
+        <div class="footer-main">
+            <!-- Column 1 - Company Info (Enhanced) -->
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <span class="logo-text">Web<span class="logo-highlight">see</span></span>
+                </div>
+                <p class="company-description">Building powerful digital experiences that drive real business growth. We're not just developers — we're your growth partners.</p>
+                
+                <!-- Company Stats -->
+                <div class="company-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">100+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">50+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">5+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:hello@websee.in">hello@websee.in</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span>India • Worldwide Remote</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2 - Quick Links (Enhanced) -->
+            <div class="footer-col">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="/index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="/pages/about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="/pages/service.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                    <li><a href="/pages/projects.html"><i class="fas fa-chevron-right"></i> Our Work</a></li>
+                    <li><a href="/pages/contactus.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 - Services (Enhanced with icons) -->
+            <div class="footer-col">
+                <h4 class="footer-title">Our Services</h4>
+                <ul class="footer-links services-links">
+                    <li><a href="#"><i class="fas fa-code"></i> Web Development</a></li>
+                    <li><a href="#"><i class="fas fa-paint-brush"></i> UI/UX Design</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Digital Marketing</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                    <li><a href="#"><i class="fas fa-bullseye"></i> Brand Strategy</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i> E-commerce</a></li>
+                    <li><a href="#"><i class="fas fa-mobile-alt"></i> Mobile Apps</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4 - Newsletter & Social (Enhanced) -->
+            <div class="footer-col">
+                <h4 class="footer-title">Stay Connected</h4>
+                <p class="newsletter-text">Subscribe to get updates on new projects and insights.</p>
+                
+                <form class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+
+               <!-- Social Links with Hover Effects -->
+<div class="social-section">
+    <h5 class="social-title">Follow us</h5>
+    <div class="social-grid" style="grid-template-columns: repeat(4, 1fr);">
+        <!-- Instagram -->
+        <a href="#" class="social-link instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        
+        <!-- LinkedIn -->
+        <a href="#" class="social-link linkedin" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        
+        <!-- Twitter -->
+        <a href="#" class="social-link twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        
+        <!-- WhatsApp -->
+        <a href="#" class="social-link whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</div>
+
+
+                <!-- App Download (Optional) -->
+                <div class="app-download">
+                    <p>Get our app</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>App Store</span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Awards & Recognition Bar -->
+        <div class="awards-bar">
+            <div class="award-item">
+                <i class="fas fa-trophy"></i>
+                <span>Best Web Agency 2024</span>
+            </div>
+            <div class="award-item">
+                <i class="fas fa-medal"></i>
+                <span>Top 10 Digital Partners</span>
+            </div>
+            <div class="award-item">
+                <i class="fas fa-star"></i>
+                <span>4.9/5 Client Rating</span>
+            </div>
+            <div class="award-item">
+                <i class="fas fa-shield-alt"></i>
+                <span>ISO Certified</span>
+            </div>
+        </div>
+
+        <!-- Footer Bottom with Payment Methods & Legal -->
+        <div class="footer-bottom">
+            <div class="bottom-content">
+                <div class="copyright">
+                    <p>&copy; 2025 Websee Technology Solutions. All rights reserved.</p>
+                </div>
+
+                <div class="payment-methods">
+                    <span>We accept:</span>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-stripe"></i>
+                    <i class="fas fa-rupee-sign"></i>
+                </div>
+
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <span class="separator">|</span>
+                    <a href="#">Terms of Service</a>
+                    <span class="separator">|</span>
+                    <a href="#">Cookie Policy</a>
+                    <span class="separator">|</span>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+
+            <!-- Back to Top Button -->
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+                <span>Top</span>
+            </a>
+        </div>
+
+        <!-- Made with love note -->
+        <div class="made-with">
+            <p>Designed with <i class="fas fa-heart" style="color: #ff4444;"></i> in India for the world</p>
+        </div>
+    </div>
+</footer>
+   <script src="/assets/js/script.js"></script>
+</body>
+</html>

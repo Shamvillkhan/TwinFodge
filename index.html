@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Presence Builders | Web Development & Digital Marketing</title>
     
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/testing.css">
-<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/testing.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -16,15 +16,17 @@
     <nav class="navbar" id="navbar">
         <div class="logo">Web<span>see</span></div>
         <div class="nav-links" id="navLinks">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
-            <a href="#contact" class="btn-primary">Get Started</a>
+            <a href="/index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="/pages/service.html">Services</a>
+            <a href="/pages/projects.html">Projects</a>
+          
+            <a href="/pages/contactus.html">Contact</a>
+            <a href="/pages/contactus.html" class="btn-primary">Get Started</a>
+          
         </div>
-         <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+      <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+        
     </nav>
 <!-- Hero Section - Fixed & Mobile Responsive -->
 <section class="hero" id="home">
@@ -64,7 +66,7 @@
 
             <!-- Buttons - HIGHEST Z-INDEX -->
             <div class="hero-buttons">
-                <a href="#contact" class="btn-primary btn-glow">
+                <a href="/c" class="btn-primary btn-glow">
                     <span>Get Started</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
@@ -77,15 +79,15 @@
             <!-- Stats -->
             <div class="hero-stats">
                 <div class="stat-item">
-                    <div class="stat-number">100+</div>
-                    <div class="stat-label">Projects</div>
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Projects Delivered</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Clients</div>
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Business Clients Served</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">95%</div>
+                    <div class="stat-number">98%</div>
                     <div class="stat-label">Success Rate</div>
                 </div>
             </div>
@@ -155,176 +157,182 @@
     </div>
 
     <div class="container">
-        <!-- Section Header -->
-        <div class="section-header">
+        <!-- Section Header - Websee's "Who We Are" -->
+        <div class="section-header centered">
             <span class="section-badge">
-                <i class="fas fa-info-circle"></i> About Us
+                <i class="fas fa-info-circle"></i> Who We Are
             </span>
-            <h2 class="section-title">We Don't Just Build Websites —<br>We Build <span class="gradient-text">Digital Authority</span></h2>
-            <p class="section-subtitle">We're a team of passionate digital experts dedicated to transforming businesses through innovative technology and creative marketing strategies.</p>
+            <h2 class="section-title">Welcome to <span class="gradient-text">Websee</span></h2>
+            <p class="section-subtitle">We're a passionate and dedicated team of digital creators committed to building meaningful online experiences for businesses like yours.</p>
+            <p class="section-subtitle" style="margin-top: 15px;">With a foundation built on technical excellence, creative innovation, and genuine care for our clients, we've become a trusted partner for businesses ready to grow their digital presence.</p>
         </div>
         
         <!-- Main About Grid -->
         <div class="about-grid">
-            <!-- Left Content -->
+            <!-- Left Content - Websee's Values (following the same structure) -->
             <div class="about-content">
                 <div class="about-text">
-                    <p class="lead-text">Founded in 2023, Digital Presence Builders has helped over <span class="highlight">100+ businesses</span> establish a powerful online presence.</p>
-                    
-                    <!-- Value Metrics - Visual Stats -->
-                    <div class="metrics-grid">
-                        <div class="metric-item">
-                            <div class="metric-icon">
-                                <i class="fas fa-rocket"></i>
-                            </div>
-                            <div class="metric-info">
-                                <span class="metric-value">2-4</span>
-                                <span class="metric-label">Weeks to Launch</span>
-                            </div>
-                        </div>
-                        <div class="metric-item">
-                            <div class="metric-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="metric-info">
-                                <span class="metric-value">40%</span>
-                                <span class="metric-label">Higher Conversion</span>
-                            </div>
-                        </div>
-                        <div class="metric-item">
-                            <div class="metric-icon">
-                                <i class="fas fa-bullseye"></i>
-                            </div>
-                            <div class="metric-info">
-                                <span class="metric-value">200%</span>
-                                <span class="metric-label">Average ROI</span>
-                            </div>
-                        </div>
+                    <!-- Integrity - Websee version -->
+                    <div class="value-block" style="margin-bottom: 35px;">
+                        <h3 class="value-heading" style="font-size: 24px; margin-bottom: 15px; color: #333;">
+                            <i class="fas fa-shield-alt" style="color: #72b01d; margin-right: 10px;"></i> 
+                            Transparency
+                        </h3>
+                        <p style="color: #555; line-height: 1.7; font-size: 16px;">We believe in honest, no-surprises partnerships. From pricing to timelines to what's actually possible — we tell you the truth, even when it's not what you want to hear. No hidden fees, no overpromising, just real talk.</p>
                     </div>
-
-                    <!-- Key Features with Progress -->
-                    <div class="features-compact">
-                        <div class="feature-compact">
-                            <div class="feature-header">
-                                <span>Scalable Ecosystems</span>
-                                <span class="feature-percent">95%</span>
-                            </div>
-                            <div class="feature-progress">
-                                <div class="progress-fill" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div class="feature-compact">
-                            <div class="feature-header">
-                                <span>SEO Optimization</span>
-                                <span class="feature-percent">98%</span>
-                            </div>
-                            <div class="feature-progress">
-                                <div class="progress-fill" style="width: 98%"></div>
-                            </div>
-                        </div>
-                        <div class="feature-compact">
-                            <div class="feature-header">
-                                <span>Conversion Focus</span>
-                                <span class="feature-percent">92%</span>
-                            </div>
-                            <div class="feature-progress">
-                                <div class="progress-fill" style="width: 92%"></div>
-                            </div>
-                        </div>
+                    
+                    <!-- Collaboration - Websee version -->
+                    <div class="value-block" style="margin-bottom: 35px;">
+                        <h3 class="value-heading" style="font-size: 24px; margin-bottom: 15px; color: #333;">
+                            <i class="fas fa-handshake" style="color: #72b01d; margin-right: 10px;"></i> 
+                            Partnership
+                        </h3>
+                        <p style="color: #555; line-height: 1.7; font-size: 16px;">You're not just a project number to us. We work alongside you, not just for you. Your ideas, your feedback, your vision — they shape everything we build. Together, we create something you'll be proud of.</p>
+                    </div>
+                    
+                    <!-- Customer Focus - Websee version -->
+                    <div class="value-block" style="margin-bottom: 35px;">
+                        <h3 class="value-heading" style="font-size: 24px; margin-bottom: 15px; color: #333;">
+                            <i class="fas fa-heart" style="color: #72b01d; margin-right: 10px;"></i> 
+                            Your Success First
+                        </h3>
+                        <p style="color: #555; line-height: 1.7; font-size: 16px;">Every line of code, every design choice, every marketing strategy is guided by one question: "Does this help our client win?" Your growth is our growth. When your business thrives, we've done our job.</p>
                     </div>
                 </div>
             </div>
+<!-- RIGHT SIDE - Unique Visual System -->
+<div class="wbs-about-viz">
+    <!-- Floating Particles Background -->
+    <div class="wbs-viz-particles"></div>
+    
+    <!-- Main Visual Container -->
+    <div class="wbs-viz-universe">
+        <!-- Central Core - Your Brand Heart -->
+        <div class="wbs-core-box">
+            <div class="wbs-core-pulse"></div>
+            <div class="wbs-core-emblem">
+                <span class="wbs-emblem-letter">W</span>
+            </div>
+            <div class="wbs-core-ring wbs-ring-outer"></div>
+            <div class="wbs-core-ring wbs-ring-middle"></div>
+            <div class="wbs-core-ring wbs-ring-inner"></div>
+        </div>
 
-            <!-- RIGHT SIDE - ANIMATED VALUE VISUAL (REPLACES IMAGE) -->
-            <div class="about-visual">
-                <!-- Main Value Circle -->
-                <div class="value-circle">
-                    <!-- Center Icon -->
-                    <div class="center-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    
-                    <!-- Rotating Rings -->
-                    <div class="ring ring-1"></div>
-                    <div class="ring ring-2"></div>
-                    <div class="ring ring-3"></div>
-                    
-                    <!-- Floating Service Icons -->
-                    <div class="service-icon-item service-1">
-                        <div class="service-icon-bg">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <span class="service-label">Development</span>
-                    </div>
-                    <div class="service-icon-item service-2">
-                        <div class="service-icon-bg">
-                            <i class="fas fa-paint-brush"></i>
-                        </div>
-                        <span class="service-label">Design</span>
-                    </div>
-                    <div class="service-icon-item service-3">
-                        <div class="service-icon-bg">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <span class="service-label">Marketing</span>
-                    </div>
-                    <div class="service-icon-item service-4">
-                        <div class="service-icon-bg">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <span class="service-label">SEO</span>
-                    </div>
-                    <div class="service-icon-item service-5">
-                        <div class="service-icon-bg">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                        <span class="service-label">E-commerce</span>
-                    </div>
-                    <div class="service-icon-item service-6">
-                        <div class="service-icon-bg">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <span class="service-label">Mobile</span>
-                    </div>
+        <!-- Achievement Orbits -->
+        <div class="wbs-orbit wbs-orbit-1">
+            <div class="wbs-orbit-item wbs-item-1">
+                <div class="wbs-item-icon">
+                    <i class="fas fa-trophy"></i>
                 </div>
-
-                <!-- Stats Cards that float -->
-                <div class="floating-stat stat-1">
-                    <i class="fas fa-arrow-up"></i>
-                    <div class="stat-info">
-                        <span class="stat-big">+200%</span>
-                        <span class="stat-small">ROI</span>
-                    </div>
-                </div>
-                <div class="floating-stat stat-2">
-                    <i class="fas fa-clock"></i>
-                    <div class="stat-info">
-                        <span class="stat-big">2-4</span>
-                        <span class="stat-small">Weeks</span>
-                    </div>
-                </div>
-                <div class="floating-stat stat-3">
-                    <i class="fas fa-users"></i>
-                    <div class="stat-info">
-                        <span class="stat-big">100+</span>
-                        <span class="stat-small">Clients</span>
-                    </div>
-                </div>
-
-                <!-- Growth Graph Animation -->
-                <div class="growth-graph">
-                    <div class="graph-bar bar1" style="height: 40px;"></div>
-                    <div class="graph-bar bar2" style="height: 60px;"></div>
-                    <div class="graph-bar bar3" style="height: 80px;"></div>
-                    <div class="graph-bar bar4" style="height: 65px;"></div>
-                    <div class="graph-bar bar5" style="height: 95px;"></div>
-                    <div class="graph-bar bar6" style="height: 110px;"></div>
-                    <div class="graph-bar bar7" style="height: 90px;"></div>
+                <div class="wbs-item-text">
+                    <span class="wbs-item-year">2024</span>
+                    <span class="wbs-item-title">Best Agency</span>
                 </div>
             </div>
         </div>
 
-        <!-- Value Proposition Cards - Enhanced -->
+        <div class="wbs-orbit wbs-orbit-2">
+            <div class="wbs-orbit-item wbs-item-2">
+                <div class="wbs-item-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="wbs-item-text">
+                    <span class="wbs-item-year">2023</span>
+                    <span class="wbs-item-title">100+ Projects</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="wbs-orbit wbs-orbit-3">
+            <div class="wbs-orbit-item wbs-item-3">
+                <div class="wbs-item-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="wbs-item-text">
+                    <span class="wbs-item-year">2022</span>
+                    <span class="wbs-item-title">50+ Clients</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="wbs-orbit wbs-orbit-4">
+            <div class="wbs-orbit-item wbs-item-4">
+                <div class="wbs-item-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="wbs-item-text">
+                    <span class="wbs-item-year">2021</span>
+                    <span class="wbs-item-title">Global Reach</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Stat Cards -->
+        <div class="wbs-stat wbs-stat-1">
+            <div class="wbs-stat-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="wbs-stat-info">
+                <span class="wbs-stat-num">5+</span>
+                <span class="wbs-stat-label">Years</span>
+            </div>
+        </div>
+
+        <div class="wbs-stat wbs-stat-2">
+            <div class="wbs-stat-icon">
+                <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="wbs-stat-info">
+                <span class="wbs-stat-num">100+</span>
+                <span class="wbs-stat-label">Projects</span>
+            </div>
+        </div>
+
+        <div class="wbs-stat wbs-stat-3">
+            <div class="wbs-stat-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="wbs-stat-info">
+                <span class="wbs-stat-num">98%</span>
+                <span class="wbs-stat-label">Satisfaction</span>
+            </div>
+        </div>
+
+        <!-- Growth Wave -->
+        <div class="wbs-wave">
+            <svg viewBox="0 0 200 50" class="wbs-wave-svg">
+                <path d="M0,25 Q25,10 50,25 T100,25 T150,25 T200,25" 
+                      stroke="#72b01d" 
+                      fill="none" 
+                      stroke-width="2" 
+                      stroke-dasharray="5 5"/>
+                <circle cx="40" cy="25" r="4" fill="#72b01d" class="wbs-wave-dot wbs-dot1"/>
+                <circle cx="100" cy="25" r="4" fill="#72b01d" class="wbs-wave-dot wbs-dot2"/>
+                <circle cx="160" cy="25" r="4" fill="#72b01d" class="wbs-wave-dot wbs-dot3"/>
+            </svg>
+        </div>
+
+        <!-- DNA Helix -->
+        <div class="wbs-dna">
+            <div class="wbs-dna-left">
+                <div class="wbs-dna-node" style="--pos: 0;"></div>
+                <div class="wbs-dna-node" style="--pos: 2;"></div>
+                <div class="wbs-dna-node" style="--pos: 4;"></div>
+                <div class="wbs-dna-node" style="--pos: 6;"></div>
+            </div>
+            <div class="wbs-dna-right">
+                <div class="wbs-dna-node" style="--pos: 1;"></div>
+                <div class="wbs-dna-node" style="--pos: 3;"></div>
+                <div class="wbs-dna-node" style="--pos: 5;"></div>
+                <div class="wbs-dna-node" style="--pos: 7;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <!-- Value Proposition Cards - Keep as is or replace -->
         <div class="value-prop">
             <div class="section-header centered">
                 <span class="section-badge">
@@ -381,90 +389,19 @@
             </div>
         </div>
 
-        <!-- Process Visualization -->
-        <div class="process-showcase">
-            <div class="section-header centered">
-                <span class="section-badge">
-                    <i class="fas fa-cogs"></i> Our Process
-                </span>
-                <h2 class="section-title">From <span class="gradient-text">Idea</span> to <span class="gradient-text">Revenue</span></h2>
-            </div>
-
-            <div class="process-flow">
-                <div class="process-step">
-                    <div class="step-number">01</div>
-                    <div class="step-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h4>Discovery</h4>
-                    <p>We analyze your market & goals</p>
-                </div>
-                <div class="process-connector"></div>
-                <div class="process-step">
-                    <div class="step-number">02</div>
-                    <div class="step-icon">
-                        <i class="fas fa-pencil-ruler"></i>
-                    </div>
-                    <h4>Strategy</h4>
-                    <p>Data-backed custom plan</p>
-                </div>
-                <div class="process-connector"></div>
-                <div class="process-step">
-                    <div class="step-number">03</div>
-                    <div class="step-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h4>Build</h4>
-                    <p>Cutting-edge development</p>
-                </div>
-                <div class="process-connector"></div>
-                <div class="process-step">
-                    <div class="step-number">04</div>
-                    <div class="step-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h4>Scale</h4>
-                    <p>Grow & optimize</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Stats Bar -->
-        <div class="impact-stats">
-            <div class="impact-item">
-                <div class="impact-number">100+</div>
-                <div class="impact-label">Projects</div>
-            </div>
-            <div class="impact-divider"></div>
-            <div class="impact-item">
-                <div class="impact-number">50+</div>
-                <div class="impact-label">Clients</div>
-            </div>
-            <div class="impact-divider"></div>
-            <div class="impact-item">
-                <div class="impact-number">5+</div>
-                <div class="impact-label">Years</div>
-            </div>
-            <div class="impact-divider"></div>
-            <div class="impact-item">
-                <div class="impact-number">40%</div>
-                <div class="impact-label">Higher Conv.</div>
-            </div>
-        </div>
-
-        <!-- CTA -->
+        <!-- CTA - Slightly warmer tone -->
         <div class="cta-modern">
             <div class="cta-content">
-                <h3>Ready to build your digital authority?</h3>
-                <p>Join 100+ businesses that have doubled their revenue with us</p>
+                <h3>Ready to build something meaningful together?</h3>
+                <p>Join 100+ businesses that have trusted us with their digital growth</p>
                 <a href="#contact" class="cta-button-modern">
-                    <span>Talk to Our Team</span>
+                    <span>Let's Talk</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div>
     </div>
-</section>   
+</section>
 <!-- Services Section - Clean & Mobile Friendly -->
 <section class="services" id="services">
     <!-- Animated Background -->
@@ -475,12 +412,12 @@
 
     <div class="container">
         <!-- Section Header -->
-        <div class="section-header">
+        <div class="section-header centered">
             <span class="section-badge">
-                <i class="fas fa-sparkles"></i> What We Do
-            </span>
-            <h2 class="section-title">We Don't Just Deliver Services — <br>We <span class="gradient-text">Transform Businesses</span></h2>
-            <p class="section-subtitle">Every business is unique, and so is our approach. Here's exactly what you get with each service.</p>
+                    <i class="fas fa-gear"></i> Our Service
+                </span>
+            <h2 class="section-title">Comprehensive Digital Solutions — <br>Tailored to <span class="gradient-text">Your Business Needs</span></h2>
+            <p class="section-subtitle">From concept to launch and beyond, we deliver end-to-end services that drive real results.</p>
         </div>
 
         <!-- Services Grid - Clean Cards with Lists -->
@@ -495,1071 +432,176 @@
                 </div>
                 
                 <div class="service-description">
-                    <p>Custom websites that bring you customers, not just visitors.</p>
+                    <p>Custom websites and web applications built with modern frameworks to deliver exceptional performance.</p>
                 </div>
                 
                 <div class="service-features">
                     <h4>What's included:</h4>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Custom website design</li>
-                        <li><i class="fas fa-check-circle"></i> Mobile responsive layout</li>
-                        <li><i class="fas fa-check-circle"></i> SEO optimized structure</li>
-                        <li><i class="fas fa-check-circle"></i> Fast loading speed</li>
-                        <li><i class="fas fa-check-circle"></i> Security & malware protection</li>
-                        <li><i class="fas fa-check-circle"></i> 3 months free maintenance</li><li><i class="fas fa-check-circle"></i> Security & malware protection</li>
-                        <li><i class="fas fa-check-circle"></i> 3 months free maintenance</li><li><i class="fas fa-check-circle"></i> Security & malware protection</li>
-                        <li><i class="fas fa-check-circle"></i> 3 months free maintenance</li>
+                        <li><i class="fas fa-check-circle"></i> Fully responsive design</li>
+                        <li><i class="fas fa-check-circle"></i> SEO optimized architecture</li>
+                        <li><i class="fas fa-check-circle"></i> Lightning-fast loading speeds</li>
+                        <li><i class="fas fa-check-circle"></i> Modern UI/UX implementation</li>
+                        <li><i class="fas fa-check-circle"></i> Smooth launch assurance</li>
                     </ul>
                 </div>
                 
-                <div class="service-footer">
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">999</span>
-                        <span class="period">one-time</span>
-                    </div>
-                    <a href="#contact" class="service-btn">Get Started →</a>
-                </div>
+             
             </div>
 
-            <!-- Service 2 - UI/UX Design -->
+           <!-- Service 2 - SEO Optimization -->
+<div class="service-card">
+    <div class="service-header">
+        <div class="service-icon">
+            <i class="fas fa-search"></i>
+        </div>
+        <h3>SEO Optimization</h3>
+    </div>
+    
+    <div class="service-description">
+        <p>Data-driven SEO strategies that help your website rank higher and get found by customers searching for your services.</p>
+    </div>
+    
+    <div class="service-features">
+        <h4>What's included:</h4>
+        <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Comprehensive keyword research</li>
+            <li><i class="fas fa-check-circle"></i> On-page SEO optimization</li>
+            <li><i class="fas fa-check-circle"></i> Technical SEO audit & fixes</li>
+            <li><i class="fas fa-check-circle"></i> Content strategy development</li>
+            <li><i class="fas fa-check-circle"></i> Monthly rank tracking & reporting</li>
+        </ul>
+    </div>
+    
+  
+</div>
+
+            <!-- Service 3 - Domain & Hosting -->
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Domain & Hosting</h3>
+                </div>
+                
+                <div class="service-description">
+                    <p>Complete hosting solutions with domain registration and enterprise-grade infrastructure for guaranteed reliability.</p>
+                </div>
+                
+                <div class="service-features">
+                    <h4>What's included:</h4>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> 99.9% uptime guarantee</li>
+                        <li><i class="fas fa-check-circle"></i> Free SSL certificates</li>
+                        <li><i class="fas fa-check-circle"></i> Daily automated backups</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 technical support</li>
+                        <li><i class="fas fa-check-circle"></i> Scalable hosting resources</li>
+                    </ul>
+                </div>
+                
+              
+            </div>
+
+            <!-- Service 4 - Digital Marketing -->
+<div class="service-card featured">
+    <div class="featured-badge">Growth Accelerator 🚀</div>
+    <div class="service-header">
+        <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Digital Marketing</h3>
+    </div>
+    
+    <div class="service-description">
+        <p>Data-driven marketing strategies that attract qualified leads and convert them into loyal customers.</p>
+    </div>
+    
+    <div class="service-features">
+        <h4>What's included:</h4>
+        <ul class="feature-list">
+            <li><i class="fas fa-check-circle"></i> Targeted campaigns on high-traffic platforms</li>
+            <li><i class="fas fa-check-circle"></i> Email marketing automation</li>
+            <li><i class="fas fa-check-circle"></i> Social media management & content creation</li>
+            <li><i class="fas fa-check-circle"></i> Monthly performance analytics & reporting</li>
+            <li><i class="fas fa-check-circle"></i> Retargeting strategy implementation</li>
+        </ul>
+    </div>
+    
+    
+</div>
+
+            <!-- Service 5 - Design Services -->
             <div class="service-card">
                 <div class="service-header">
                     <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
-                    <h3>UI/UX Design</h3>
+                    <h3>Design Services</h3>
                 </div>
                 
                 <div class="service-description">
-                    <p>Designs that guide your visitors exactly where you want them.</p>
+                    <p>Professional design solutions including Figma prototypes, print materials, and complete brand identity development.</p>
                 </div>
                 
                 <div class="service-features">
                     <h4>What's included:</h4>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> User research & analysis</li>
-                        <li><i class="fas fa-check-circle"></i> Wireframes & prototypes</li>
-                        <li><i class="fas fa-check-circle"></i> Visual design & branding</li>
-                        <li><i class="fas fa-check-circle"></i> User testing & feedback</li>
-                        <li><i class="fas fa-check-circle"></i> Accessibility compliance</li>
-                        <li><i class="fas fa-check-circle"></i> Design system creation</li>
+                        <li><i class="fas fa-check-circle"></i> Interactive Figma designs</li>
+                        <li><i class="fas fa-check-circle"></i> Complete brand identity</li>
+                        <li><i class="fas fa-check-circle"></i> Print design materials</li>
+                        <li><i class="fas fa-check-circle"></i> UI/UX design strategy</li>
+                        <li><i class="fas fa-check-circle"></i> Brand style guides</li>
                     </ul>
                 </div>
                 
-                <div class="service-footer">
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">599</span>
-                        <span class="period">one-time</span>
-                    </div>
-                    <a href="#contact" class="service-btn">Get Started →</a>
-                </div>
+              
             </div>
 
-            <!-- Service 3 - Digital Marketing (Featured) -->
-            <div class="service-card featured">
-                <div class="featured-badge">Most Popular 🔥</div>
-                <div class="service-header">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Digital Marketing</h3>
-                </div>
-                
-                <div class="service-description">
-                    <p>Turn strangers into customers with data-driven marketing.</p>
-                </div>
-                
-                <div class="service-features">
-                    <h4>What's included:</h4>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Targeted ad campaigns</li>
-                        <li><i class="fas fa-check-circle"></i> Email marketing automation</li>
-                        <li><i class="fas fa-check-circle"></i> Social media management</li>
-                        <li><i class="fas fa-check-circle"></i> Monthly performance reports</li>
-                        <li><i class="fas fa-check-circle"></i> Conversion optimization</li>
-                        <li><i class="fas fa-check-circle"></i> Retargeting strategies</li>
-                    </ul>
-                </div>
-                
-                <div class="service-footer">
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">799</span>
-                        <span class="period">per month</span>
-                    </div>
-                    <a href="#contact" class="service-btn">Get Started →</a>
-                </div>
-            </div>
-
-            <!-- Service 4 - Social Media -->
+            <!-- Service 6 - Tech Integration -->
             <div class="service-card">
                 <div class="service-header">
                     <div class="service-icon">
-                        <i class="fas fa-hashtag"></i>
+                        <i class="fas fa-plug"></i>
                     </div>
-                    <h3>Social Media Management</h3>
+                    <h3>Tech Integration</h3>
                 </div>
                 
                 <div class="service-description">
-                    <p>Build a community that actually engages with your brand.</p>
+                    <p>Seamless integration of new technologies and third-party services to enhance and expand your digital ecosystem.</p>
                 </div>
                 
                 <div class="service-features">
                     <h4>What's included:</h4>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Daily content posting</li>
-                        <li><i class="fas fa-check-circle"></i> Community engagement</li>
-                        <li><i class="fas fa-check-circle"></i> Custom graphics & videos</li>
-                        <li><i class="fas fa-check-circle"></i> Growth analytics</li>
-                        <li><i class="fas fa-check-circle"></i> Hashtag strategy</li>
-                        <li><i class="fas fa-check-circle"></i> Monthly content calendar</li>
+                        <li><i class="fas fa-check-circle"></i> API integration & development</li>
+                        <li><i class="fas fa-check-circle"></i> Database setup & optimization</li>
+                        <li><i class="fas fa-check-circle"></i> Cloud service configuration</li>
+                        <li><i class="fas fa-check-circle"></i> Security implementation</li>
+                        <li><i class="fas fa-check-circle"></i> Third-party platform connections</li>
+                        <li><i class="fas fa-check-circle"></i> Performance monitoring</li>
                     </ul>
                 </div>
                 
-                <div class="service-footer">
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">499</span>
-                        <span class="period">per month</span>
-                    </div>
-                    <a href="#contact" class="service-btn">Get Started →</a>
-                </div>
-            </div>
-
-            <!-- Service 5 - SEO Optimization -->
-            <div class="service-card">
-                <div class="service-header">
-                    <div class="service-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h3>SEO Optimization</h3>
-                </div>
-                
-                <div class="service-description">
-                    <p>Get found on Google without paying for ads.</p>
-                </div>
-                
-                <div class="service-features">
-                    <h4>What's included:</h4>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Keyword research</li>
-                        <li><i class="fas fa-check-circle"></i> On-page optimization</li>
-                        <li><i class="fas fa-check-circle"></i> Technical SEO audit</li>
-                        <li><i class="fas fa-check-circle"></i> Quality backlink building</li>
-                        <li><i class="fas fa-check-circle"></i> Content strategy</li>
-                        <li><i class="fas fa-check-circle"></i> Monthly rank tracking</li>
-                    </ul>
-                </div>
-                
-                <div class="service-footer">
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">399</span>
-                        <span class="period">per month</span>
-                    </div>
-                    <a href="#contact" class="service-btn">Get Started →</a>
-                </div>
-            </div>
-
-            <!-- Service 6 - Brand Strategy -->
-            <div class="service-card">
-                <div class="service-header">
-                    <div class="service-icon">
-                        <i class="fas fa-bullseye"></i>
-                    </div>
-                    <h3>Brand Strategy</h3>
-                </div>
-                
-                <div class="service-description">
-                    <p>Create a brand that people remember and trust.</p>
-                </div>
-                
-                <div class="service-features">
-                    <h4>What's included:</h4>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Brand identity design</li>
-                        <li><i class="fas fa-check-circle"></i> Logo & visual assets</li>
-                        <li><i class="fas fa-check-circle"></i> Brand voice development</li>
-                        <li><i class="fas fa-check-circle"></i> Target audience analysis</li>
-                        <li><i class="fas fa-check-circle"></i> Competitor research</li>
-                        <li><i class="fas fa-check-circle"></i> Brand guidelines</li>
-                    </ul>
-                </div>
-                
-                <div class="service-footer">
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">799</span>
-                        <span class="period">one-time</span>
-                    </div>
-                    <a href="#contact" class="service-btn">Get Started →</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Every Service Includes -->
-        <div class="included-section">
-            <h3>Every Service Includes:</h3>
-            <div class="included-grid">
-                <div class="included-item">
-                    <i class="fas fa-headset"></i>
-                    <span>24/7 Support</span>
-                </div>
-                <div class="included-item">
-                    <i class="fas fa-chart-simple"></i>
-                    <span>Monthly Reports</span>
-                </div>
-                <div class="included-item">
-                    <i class="fas fa-clock"></i>
-                    <span>2-4 Week Delivery</span>
-                </div>
-                <div class="included-item">
-                    <i class="fas fa-hand-holding-heart"></i>
-                    <span>30-Day Guarantee</span>
-                </div>
+              
             </div>
         </div>
 
         <!-- Simple CTA -->
-        <div class="services-simple-cta">
-            <h3>Not sure which service you need?</h3>
-            <p>Book a free 30-minute strategy call. No pressure, just honest advice.</p>
-            <a href="#contact" class="cta-simple-btn">
-                <i class="fas fa-calendar-check"></i>
-                Book Free Call
-            </a>
-        </div>
+<div class="services-simple-cta">
+    <a href="/pages/service.html" class="cta-simple-btn">
+        View all services <i class="fas fa-arrow-right"></i>
+    </a>
+</div>
     </div>
 </section>
 
 
-<!-- Expertise Section - Modern & Meaningful -->
-<section class="expertise" id="expertise">
-    <!-- Animated Background -->
-    <div class="expertise-background">
-        <div class="expertise-orb orb1"></div>
-        <div class="expertise-orb orb2"></div>
-        <div class="pattern-grid"></div>
-    </div>
 
-    <div class="container">
-        <!-- Section Header -->
-        <div class="section-header">
-            <span class="section-badge">
-                <i class="fas fa-crown"></i> Our Expertise
-            </span>
-            <h2 class="section-title">We Don't Just Know Technology — <br>We <span class="gradient-text">Master It For Your Success</span></h2>
-            <p class="section-subtitle">Technical skills mean nothing without results. Here's how our expertise translates into real business value for you.</p>
-        </div>
-
-        <!-- Expertise Showcase -->
-        <div class="expertise-showcase">
-            <!-- Left side - Main Expertise Card -->
-            <div class="expertise-main">
-                <div class="main-stats">
-                    <div class="stat-big">
-                        <span class="stat-number">6+</span>
-                        <span class="stat-label">Years Combined Experience</span>
-                    </div>
-                    <div class="stat-big">
-                        <span class="stat-number">100+</span>
-                        <span class="stat-label">Projects Delivered</span>
-                    </div>
-                </div>
-                <div class="main-quote">
-                    <i class="fas fa-quote-left"></i>
-                    <p>We don't just write code — we build solutions that grow businesses.</p>
-                </div>
-            </div>
-
-            <!-- Right side - Skill Circles -->
-            <div class="skill-circles">
-                <div class="circle-item">
-                    <div class="circle-progress" data-percent="95">
-                        <div class="circle-inner">
-                            <span class="circle-number">95%</span>
-                        </div>
-                    </div>
-                    <div class="circle-info">
-                        <h4>Frontend Mastery</h4>
-                        <p>HTML/CSS/JavaScript • React</p>
-                    </div>
-                </div>
-                <div class="circle-item">
-                    <div class="circle-progress" data-percent="88">
-                        <div class="circle-inner">
-                            <span class="circle-number">88%</span>
-                        </div>
-                    </div>
-                    <div class="circle-info">
-                        <h4>Marketing & SEO</h4>
-                        <p>Rank on Google • Get Found</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main Skills Grid - Client-Focused -->
-        <div class="expertise-grid">
-            <!-- Skill 1 - HTML/CSS/JavaScript -->
-            <div class="expertise-card">
-                <div class="card-header">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="skill-title">
-                        <h3>Frontend Development</h3>
-                        <div class="skill-level">
-                            <span class="level-bar" style="width: 95%"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <p class="skill-description">
-                        <strong>What this means for you:</strong> Lightning-fast websites that work perfectly on every device.
-                    </p>
-                    <ul class="skill-benefits">
-                        <li><i class="fas fa-bolt"></i> Pages load in under 2 seconds</li>
-                        <li><i class="fas fa-mobile-alt"></i> Perfect on phones, tablets, desktops</li>
-                        <li><i class="fas fa-search"></i> Google loves our code (better rankings)</li>
-                    </ul>
-                    <div class="skill-tags">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                        <span>React</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skill 2 - React/Frontend -->
-            <div class="expertise-card">
-                <div class="card-header">
-                    <div class="skill-icon">
-                        <i class="fas fa-react"></i>
-                    </div>
-                    <div class="skill-title">
-                        <h3>React & Modern Frontend</h3>
-                        <div class="skill-level">
-                            <span class="level-bar" style="width: 90%"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <p class="skill-description">
-                        <strong>What this means for you:</strong> Interactive, app-like experiences that keep customers engaged.
-                    </p>
-                    <ul class="skill-benefits">
-                        <li><i class="fas fa-rocket"></i> Single-page apps that feel instant</li>
-                        <li><i class="fas fa-sync-alt"></i> Real-time updates without refreshing</li>
-                        <li><i class="fas fa-cart-plus"></i> Smooth e-commerce experiences</li>
-                    </ul>
-                    <div class="skill-tags">
-                        <span>React</span>
-                        <span>Next.js</span>
-                        <span>Vue</span>
-                        <span>TypeScript</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skill 3 - Backend Basics (Featured - Shows what backend really means) -->
-            <div class="expertise-card featured">
-                <div class="featured-tag">⚡ Powering Your Business</div>
-                <div class="card-header">
-                    <div class="skill-icon">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <div class="skill-title">
-                        <h3>Backend & Databases</h3>
-                        <div class="skill-level">
-                            <span class="level-bar" style="width: 85%"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <p class="skill-description">
-                        <strong>What this means for you:</strong> Your website never crashes, even when thousands visit.
-                    </p>
-                    <ul class="skill-benefits">
-                        <li><i class="fas fa-shield-alt"></i> Secure user data & payments</li>
-                        <li><i class="fas fa-chart-line"></i> Handles traffic spikes easily</li>
-                        <li><i class="fas fa-database"></i> Fast database queries (no waiting)</li>
-                    </ul>
-                    <div class="skill-tags">
-                        <span>Node.js</span>
-                        <span>Python</span>
-                        <span>MySQL</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skill 4 - SEO & Marketing -->
-            <div class="expertise-card">
-                <div class="card-header">
-                    <div class="skill-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="skill-title">
-                        <h3>SEO & Digital Marketing</h3>
-                        <div class="skill-level">
-                            <span class="level-bar" style="width: 88%"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <p class="skill-description">
-                        <strong>What this means for you:</strong> Customers find you on Google without paid ads.
-                    </p>
-                    <ul class="skill-benefits">
-                        <li><i class="fas fa-search"></i> First page Google rankings</li>
-                        <li><i class="fas fa-users"></i> More organic traffic</li>
-                        <li><i class="fas fa-chart-pie"></i> Data-driven content strategy</li>
-                    </ul>
-                    <div class="skill-tags">
-                        <span>SEO Audit</span>
-                        <span>Keyword Research</span>
-                        <span>Link Building</span>
-                        <span>Analytics</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skill 5 - Social Media Growth -->
-            <div class="expertise-card">
-                <div class="card-header">
-                    <div class="skill-icon">
-                        <i class="fas fa-hashtag"></i>
-                    </div>
-                    <div class="skill-title">
-                        <h3>Social Media Growth</h3>
-                        <div class="skill-level">
-                            <span class="level-bar" style="width: 92%"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <p class="skill-description">
-                        <strong>What this means for you:</strong> Engaged communities that become paying customers.
-                    </p>
-                    <ul class="skill-benefits">
-                        <li><i class="fas fa-heart"></i> Real engagement, not bots</li>
-                        <li><i class="fas fa-chart-bar"></i> Consistent follower growth</li>
-                        <li><i class="fas fa-ad"></i> High-converting social ads</li>
-                    </ul>
-                    <div class="skill-tags">
-                        <span>Instagram</span>
-                        <span>LinkedIn</span>
-                        <span>TikTok</span>
-                        <span>Facebook</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skill 6 - Content Strategy -->
-            <div class="expertise-card">
-                <div class="card-header">
-                    <div class="skill-icon">
-                        <i class="fas fa-pen-fancy"></i>
-                    </div>
-                    <div class="skill-title">
-                        <h3>Content Strategy</h3>
-                        <div class="skill-level">
-                            <span class="level-bar" style="width: 87%"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <p class="skill-description">
-                        <strong>What this means for you:</strong> Content that tells your story and converts readers.
-                    </p>
-                    <ul class="skill-benefits">
-                        <li><i class="fas fa-newspaper"></i> Blog posts that rank on Google</li>
-                        <li><i class="fas fa-video"></i> Video scripts that engage</li>
-                        <li><i class="fas fa-envelope"></i> Email sequences that sell</li>
-                    </ul>
-                    <div class="skill-tags">
-                        <span>Copywriting</span>
-                        <span>Blog Strategy</span>
-                        <span>Video Scripts</span>
-                        <span>Email Marketing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Expertise Stats - Visual Impact -->
-        <div class="expertise-stats">
-            <div class="stat-block">
-                <div class="stat-icon">
-                    <i class="fas fa-tachometer-alt"></i>
-                </div>
-                <div class="stat-detail">
-                    <span class="stat-value">2x</span>
-                    <span class="stat-name">Faster Load Times</span>
-                </div>
-            </div>
-            <div class="stat-block">
-                <div class="stat-icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="stat-detail">
-                    <span class="stat-value">+40%</span>
-                    <span class="stat-name">Higher Conversion</span>
-                </div>
-            </div>
-            <div class="stat-block">
-                <div class="stat-icon">
-                    <i class="fas fa-google"></i>
-                </div>
-                <div class="stat-detail">
-                    <span class="stat-value">#1</span>
-                    <span class="stat-name">Google Rankings</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Technologies We Master -->
-        <div class="tech-showcase">
-            <h3>Technologies We Master</h3>
-            <div class="tech-cloud">
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">PHP</span>
-                <span class="tech-tag">MySQL</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">WordPress</span>
-                <span class="tech-tag">Shopify</span>
-                <span class="tech-tag">Wix</span>
-                <span class="tech-tag">Google Analytics</span>
-                <span class="tech-tag">SEO Tools</span>
-                <span class="tech-tag">Adobe XD</span>
-                <span class="tech-tag">Figma</span>
-                <span class="tech-tag">Photoshop</span>
-                <span class="tech-tag">Illustrator</span>
-            </div>
-        </div>
-
-        <!-- Simple CTA -->
-        <div class="expertise-cta">
-            <p>Have a specific technology in mind?</p>
-            <a href="#contact" class="expertise-cta-btn">
-                <span>Tell Us What You Need</span>
-                <i class="fas fa-arrow-right"></i>
-            </a>
-        </div>
-    </div>
-</section>
-
-    <!-- Projects Section - Modern Showcase -->
-<section class="projects" id="projects">
-    <!-- Animated Background -->
-    <div class="projects-background">
-        <div class="projects-orb orb1"></div>
-        <div class="projects-orb orb2"></div>
-        <div class="pattern-dots"></div>
-    </div>
-
-    <div class="container">
-        <!-- Section Header -->
-        <div class="section-header">
-            <span class="section-badge">
-                <i class="fas fa-briefcase"></i> Our Work
-            </span>
-            <h2 class="section-title">Selected <span class="gradient-text">Works</span></h2>
-            <p class="section-subtitle">Real projects, real results. See how we've helped businesses like yours transform their digital presence.</p>
-        </div>
-
-        <!-- Filter Buttons (Optional) -->
-        <div class="project-filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="web">Web Development</button>
-            <button class="filter-btn" data-filter="app">Mobile Apps</button>
-            <button class="filter-btn" data-filter="design">UI/UX Design</button>
-            <button class="filter-btn" data-filter="branding">Branding</button>
-        </div>
-
-        <!-- Projects Grid - 6 Projects -->
-        <div class="projects-grid">
-            <!-- Project 1 - E-commerce -->
-            <div class="project-card" data-category="web">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1115&q=80" alt="Urban Store E-commerce">
-                    <div class="image-overlay">
-                        <div class="project-category">E-commerce</div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="project-header">
-                        <h3>Urban Store</h3>
-                        <div class="project-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(5.0)</span>
-                        </div>
-                    </div>
-                    <p class="project-description">Modern e-commerce platform with seamless checkout and inventory management.</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-calendar"></i> 2024</span>
-                        <span><i class="fas fa-tag"></i> Shopify</span>
-                    </div>
-                    <div class="project-footer">
-                        <div class="project-stats">
-                            <span>+200% sales</span>
-                        </div>
-                        <a href="#" class="project-btn" target="_blank">
-                            <span>View Project</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2 - Finance Dashboard -->
-            <div class="project-card" data-category="web">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="FinTech Pro Dashboard">
-                    <div class="image-overlay">
-                        <div class="project-category">Web App</div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="project-header">
-                        <h3>FinTech Pro</h3>
-                        <div class="project-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <span>(4.8)</span>
-                        </div>
-                    </div>
-                    <p class="project-description">Real-time analytics dashboard for financial portfolio tracking and reporting.</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-calendar"></i> 2024</span>
-                        <span><i class="fas fa-tag"></i> React, D3.js</span>
-                    </div>
-                    <div class="project-footer">
-                        <div class="project-stats">
-                            <span>10k+ users</span>
-                        </div>
-                        <a href="#" class="project-btn" target="_blank">
-                            <span>View Project</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3 - Mobile App (FitLife) -->
-            <div class="project-card" data-category="app">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" alt="FitLife Mobile App">
-                    <div class="image-overlay">
-                        <div class="project-category">Mobile App</div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="project-header">
-                        <h3>FitLife App</h3>
-                        <div class="project-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(5.0)</span>
-                        </div>
-                    </div>
-                    <p class="project-description">Fitness tracking app with personalized workout plans and progress monitoring.</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-calendar"></i> 2023</span>
-                        <span><i class="fas fa-tag"></i> React Native</span>
-                    </div>
-                    <div class="project-footer">
-                        <div class="project-stats">
-                            <span>50k+ downloads</span>
-                        </div>
-                        <a href="#" class="project-btn" target="_blank">
-                            <span>View Project</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4 - Branding (EcoBrand) -->
-            <div class="project-card" data-category="branding">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1174&q=80" alt="EcoBrand Identity">
-                    <div class="image-overlay">
-                        <div class="project-category">Branding</div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="project-header">
-                        <h3>EcoBrand</h3>
-                        <div class="project-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(5.0)</span>
-                        </div>
-                    </div>
-                    <p class="project-description">Complete brand identity for sustainable products company.</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-calendar"></i> 2024</span>
-                        <span><i class="fas fa-tag"></i> Branding, Packaging</span>
-                    </div>
-                    <div class="project-footer">
-                        <div class="project-stats">
-                            <span>Award winning</span>
-                        </div>
-                        <a href="#" class="project-btn" target="_blank">
-                            <span>View Project</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 5 - NEW: Real Estate Platform -->
-            <div class="project-card" data-category="web">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1073&q=80" alt="EstateHub Platform">
-                    <div class="image-overlay">
-                        <div class="project-category">Real Estate</div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="project-header">
-                        <h3>EstateHub</h3>
-                        <div class="project-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                            <span>(4.9)</span>
-                        </div>
-                    </div>
-                    <p class="project-description">Property listing platform with virtual tours and agent dashboard.</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-calendar"></i> 2024</span>
-                        <span><i class="fas fa-tag"></i> Next.js, MongoDB</span>
-                    </div>
-                    <div class="project-footer">
-                        <div class="project-stats">
-                            <span>500+ listings</span>
-                        </div>
-                        <a href="#" class="project-btn" target="_blank">
-                            <span>View Project</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 6 - NEW: Restaurant Website -->
-            <div class="project-card" data-category="web">
-                <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Gourmet Bistro">
-                    <div class="image-overlay">
-                        <div class="project-category">Restaurant</div>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <div class="project-header">
-                        <h3>Gourmet Bistro</h3>
-                        <div class="project-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <span>(5.0)</span>
-                        </div>
-                    </div>
-                    <p class="project-description">Restaurant website with online ordering and table reservation system.</p>
-                    <div class="project-meta">
-                        <span><i class="fas fa-calendar"></i> 2023</span>
-                        <span><i class="fas fa-tag"></i> WordPress, Custom</span>
-                    </div>
-                    <div class="project-footer">
-                        <div class="project-stats">
-                            <span>+150% orders</span>
-                        </div>
-                        <a href="#" class="project-btn" target="_blank">
-                            <span>View Project</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- View All Button -->
-        <div class="projects-cta">
-            <a href="#" class="view-all-btn">
-                <span>View All Projects</span>
-                <i class="fas fa-arrow-right"></i>
-            </a>
-        </div>
-    </div>
-</section>
+    
    
     <!-- Founders Section - Modern & Trust-Building -->
-<section class="founders" id="founders">
-    <!-- Animated Background -->
-    <div class="founders-background">
-        <div class="founders-orb orb1"></div>
-        <div class="founders-orb orb2"></div>
-        <div class="pattern-grid"></div>
-    </div>
 
-    <div class="container">
-        <!-- Section Header -->
-        <div class="section-header">
-            <span class="section-badge">
-                <i class="fas fa-users"></i> Leadership Team
-            </span>
-            <h2 class="section-title">Meet The <span class="gradient-text">Founders</span></h2>
-            <p class="section-subtitle">The visionaries behind our success. Real people with real passion for transforming businesses.</p>
-        </div>
-        
-        <!-- Founders Grid -->
-        <div class="founders-grid">
-            <!-- Founder 1 - Shamvill Khan -->
-            <div class="founder-card">
-                <div class="card-inner">
-                    <div class="founder-image-wrapper">
-                        <div class="founder-image">
-                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" alt="Shamvill Khan">
-                        </div>
-                        <div class="image-pattern"></div>
-                        <div class="founder-badge">
-                            <i class="fas fa-crown"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="founder-info">
-                        <h3>Shamvill Khan</h3>
-                        <div class="founder-role">CEO & Founder</div>
-                        
-                        <div class="founder-stats">
-                            <div class="stat">
-                                <span class="stat-value">10+</span>
-                                <span class="stat-label">Years</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">50+</span>
-                                <span class="stat-label">Projects</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">Fortune</span>
-                                <span class="stat-label">500</span>
-                            </div>
-                        </div>
-                        
-                        <p class="founder-bio">10+ years of experience in web development and digital strategy. Previously led tech teams at Fortune 500 companies, now building something bigger.</p>
-                        
-                        <div class="founder-quote">
-                            <i class="fas fa-quote-left"></i>
-                            <span>Building technology that actually helps people</span>
-                        </div>
-                        
-                        <div class="social-links">
-                            <a href="#" class="social-link linkedin" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" class="social-link twitter" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social-link github" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="social-link email" target="_blank">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Founder 2 - Fatima Alia (Featured - Creative Director) -->
-            <div class="founder-card featured">
-                <div class="featured-tag">⭐ Creative Visionary</div>
-                <div class="card-inner">
-                    <div class="founder-image-wrapper">
-                        <div class="founder-image">
-                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" alt="Fatima Alia">
-                        </div>
-                        <div class="image-pattern"></div>
-                        <div class="founder-badge">
-                            <i class="fas fa-paint-brush"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="founder-info">
-                        <h3>Fatima Alia</h3>
-                        <div class="founder-role">Creative Director</div>
-                        
-                        <div class="founder-stats">
-                            <div class="stat">
-                                <span class="stat-value">8+</span>
-                                <span class="stat-label">Years</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">15+</span>
-                                <span class="stat-label">Awards</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">200+</span>
-                                <span class="stat-label">Designs</span>
-                            </div>
-                        </div>
-                        
-                        <p class="founder-bio">Award-winning designer with a passion for creating beautiful, functional digital experiences that users love and businesses profit from.</p>
-                        
-                        <div class="founder-quote">
-                            <i class="fas fa-quote-left"></i>
-                            <span>Design is not just how it looks, but how it works</span>
-                        </div>
-                        
-                        <div class="social-links">
-                            <a href="#" class="social-link linkedin" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" class="social-link behance" target="_blank">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="social-link dribbble" target="_blank">
-                                <i class="fab fa-dribbble"></i>
-                            </a>
-                            <a href="#" class="social-link instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Founder 3 - Shagir Williams -->
-            <div class="founder-card">
-                <div class="card-inner">
-                    <div class="founder-image-wrapper">
-                        <div class="founder-image">
-                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" alt="Shagir Williams">
-                        </div>
-                        <div class="image-pattern"></div>
-                        <div class="founder-badge">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="founder-info">
-                        <h3>Shagir Williams</h3>
-                        <div class="founder-role">Head of Marketing</div>
-                        
-                        <div class="founder-stats">
-                            <div class="stat">
-                                <span class="stat-value">9+</span>
-                                <span class="stat-label">Years</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">50+</span>
-                                <span class="stat-label">Brands</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-value">200%</span>
-                                <span class="stat-label">Avg ROI</span>
-                            </div>
-                        </div>
-                        
-                        <p class="founder-bio">Digital marketing expert specializing in growth strategies that convert. Helped 50+ brands scale their online presence and multiply revenue.</p>
-                        
-                        <div class="founder-quote">
-                            <i class="fas fa-quote-left"></i>
-                            <span>Marketing is telling stories that people want to be part of</span>
-                        </div>
-                        
-                        <div class="social-links">
-                            <a href="#" class="social-link linkedin" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" class="social-link twitter" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social-link instagram" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" class="social-link medium" target="_blank">
-                                <i class="fab fa-medium"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Trust Badges / Company Achievements -->
-        <div class="company-achievements">
-            <div class="achievement-item">
-                <i class="fas fa-trophy"></i>
-                <div class="achievement-text">
-                    <span class="achievement-number">15+</span>
-                    <span class="achievement-label">Industry Awards</span>
-                </div>
-            </div>
-            <div class="achievement-item">
-                <i class="fas fa-smile"></i>
-                <div class="achievement-text">
-                    <span class="achievement-number">100+</span>
-                    <span class="achievement-label">Happy Clients</span>
-                </div>
-            </div>
-            <div class="achievement-item">
-                <i class="fas fa-clock"></i>
-                <div class="achievement-text">
-                    <span class="achievement-number">5+</span>
-                    <span class="achievement-label">Years Strong</span>
-                </div>
-            </div>
-            <div class="achievement-item">
-                <i class="fas fa-globe"></i>
-                <div class="achievement-text">
-                    <span class="achievement-number">12+</span>
-                    <span class="achievement-label">Countries</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Join Team CTA -->
-        <div class="join-team">
-            <div class="join-content">
-                <h3>Want to work with these amazing humans?</h3>
-                <p>We're always looking for talented people who share our passion.</p>
-                <a href="#contact" class="join-btn">
-                    <span>Join Our Team</span>
-                    <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
   <!-- Contact Section - Modern with All Fields -->
 <section class="contact" id="contact">
     <!-- Animated Background -->
@@ -1571,7 +613,7 @@
 
     <div class="container">
         <!-- Section Header -->
-        <div class="section-header">
+        <div class="section-header centered">
             <span class="section-badge">
                 <i class="fas fa-paper-plane"></i> Get In Touch
             </span>
@@ -1641,7 +683,7 @@
                         </div>
                     </div>
                     
-                    <!-- Project Budget - Dropdown -->
+                    <!-- Project Budget - Dropdown
                     <div class="form-group">
                         <label for="budget">
                             Project Budget
@@ -1659,7 +701,7 @@
                             </select>
                             <i class="fas fa-chevron-down"></i>
                         </div>
-                    </div>
+                    </div> -->
                     
                     <!-- Project Timeline - Dropdown -->
                     <div class="form-group">
@@ -1888,12 +930,11 @@
             <div class="footer-col">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
-                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
-                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
-                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Our Work</a></li>
-                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
-                    <li><a href="#blog"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                    <li><a href="/index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="/pages/about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="/pages/service.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                    <li><a href="/pages/projects.html"><i class="fas fa-chevron-right"></i> Our Work</a></li>
+                    <li><a href="/pages/contactus.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
                 </ul>
             </div>
 
@@ -1926,50 +967,32 @@
                 </form>
 
                 <!-- Social Links with Hover Effects -->
-                <div class="social-section">
-                    <h5 class="social-title">Follow us</h5>
-                    <div class="social-grid">
-                        <a href="#" class="social-link facebook" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-link twitter" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link instagram" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="social-link linkedin" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="social-link github" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-link youtube" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="#" class="social-link whatsapp" target="_blank">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="#" class="social-link telegram" target="_blank">
-                            <i class="fab fa-telegram"></i>
-                        </a>
-                    </div>
-                </div>
+<div class="social-section">
+    <h5 class="social-title">Follow us</h5>
+    <div class="social-grid" style="grid-template-columns: repeat(4, 1fr);">
+        <!-- Instagram -->
+        <a href="#" class="social-link instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        
+        <!-- LinkedIn -->
+        <a href="#" class="social-link linkedin" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        
+        <!-- Twitter -->
+        <a href="#" class="social-link twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        
+        <!-- WhatsApp -->
+        <a href="#" class="social-link whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</div>
 
-                <!-- App Download (Optional) -->
-                <div class="app-download">
-                    <p>Get our app</p>
-                    <div class="app-buttons">
-                        <a href="#" class="app-btn">
-                            <i class="fab fa-apple"></i>
-                            <span>App Store</span>
-                        </a>
-                        <a href="#" class="app-btn">
-                            <i class="fab fa-google-play"></i>
-                            <span>Google Play</span>
-                        </a>
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -1987,10 +1010,10 @@
                 <i class="fas fa-star"></i>
                 <span>4.9/5 Client Rating</span>
             </div>
-            <div class="award-item">
+            <!-- <div class="award-item">
                 <i class="fas fa-shield-alt"></i>
                 <span>ISO Certified</span>
-            </div>
+            </div> -->
         </div>
 
         <!-- Footer Bottom with Payment Methods & Legal -->
@@ -2034,6 +1057,6 @@
         </div>
     </div>
 </footer>
-   <script src="js/script.js"></script>
+   <script src="/assets/js/script.js"></script>
 </body>
 </html>

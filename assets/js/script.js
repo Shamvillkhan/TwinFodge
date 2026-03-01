@@ -33,6 +33,10 @@
             this.reset();
         });
 
+
+
+
+        
         // Animate progress bars on scroll
         const progressBars = document.querySelectorAll('.progress-fill');
         const skillsSection = document.querySelector('.skills');

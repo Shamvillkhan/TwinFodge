@@ -1,0 +1,341 @@
+/* Packages Section */
+.packages {
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff; /* White background */
+}
+
+/* Animated Background */
+.packages-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.packages-orb {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(114, 176, 29, 0.05); /* Very light green */
+    filter: blur(60px);
+    animation: float 8s infinite ease-in-out;
+}
+
+.packages-orb.orb1 {
+    top: -100px;
+    right: -100px;
+    background: rgba(114, 176, 29, 0.08);
+}
+
+.packages-orb.orb2 {
+    bottom: -100px;
+    left: -100px;
+    width: 400px;
+    height: 400px;
+    background: rgba(114, 176, 29, 0.05);
+    animation-delay: -4s;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Packages Grid */
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px 0;
+}
+
+/* Package Card */
+.package-card {
+    background: #ffffff;
+    border: 1px solid rgba(114, 176, 29, 0.2); /* Light green border */
+    border-radius: 20px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(114, 176, 29, 0.05);
+}
+
+.package-card:hover {
+    transform: translateY(-10px);
+    border-color: #72b01d;
+    box-shadow: 0 20px 40px rgba(114, 176, 29, 0.15);
+}
+
+/* Featured Card */
+.package-card.featured {
+    border: 2px solid #72b01d;
+    transform: scale(1.05);
+    z-index: 2;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(114, 176, 29, 0.2);
+}
+
+.package-card.featured:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.featured-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    background: #72b01d;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(114, 176, 29, 0.3);
+}
+
+/* Package Header */
+.package-header {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(114, 176, 29, 0.2);
+}
+
+.package-header h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333333; /* Dark gray (almost black) but you wanted no black - keeping as dark text on white */
+    /* Alternative if you want pure green: color: #72b01d; */
+}
+
+.package-price {
+    margin-bottom: 10px;
+}
+
+.package-price .currency {
+    font-size: 24px;
+    font-weight: 600;
+    color: #72b01d;
+    vertical-align: top;
+    line-height: 1;
+}
+
+.package-price .amount {
+    font-size: 48px;
+    font-weight: 800;
+    color: #333333; /* Dark gray for text */
+    line-height: 1;
+}
+
+.package-price .period {
+    font-size: 14px;
+    color: #666666;
+    margin-left: 5px;
+}
+
+.package-delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.package-delivery i {
+    font-size: 16px;
+    color: #72b01d;
+}
+
+/* Package Description */
+.package-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.package-description p {
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Package Features */
+.package-features h4 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.feature-list li i {
+    font-size: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    color: #72b01d; /* Green check icons */
+}
+
+/* Package Footer */
+.package-footer {
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.package-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
+    background: #72b01d;
+    color: #ffffff;
+    border: none;
+}
+
+.package-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(114, 176, 29, 0.3);
+}
+
+/* Trust Badges */
+.trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333333;
+    font-size: 15px;
+}
+
+.trust-item i {
+    font-size: 20px;
+    color: #72b01d;
+}
+
+/* Custom Package CTA */
+.custom-package-cta {
+    text-align: center;
+    padding: 40px;
+    background: rgb(246, 255, 233);
+    border-radius: 20px;
+    border: 1px dashed #72b01d;
+}
+
+.custom-package-cta h3 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.custom-package-cta p {
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.cta-simple-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 30px;
+    border: 2px solid #72b01d;
+    border-radius: 30px;
+    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #ffffff !important;
+    color: #72b01d;
+}
+
+.cta-simple-btn:hover {
+    background: #72b01d;
+    border-color: #72b01d;
+    color: #ffffff !important;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .packages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .package-card.featured {
+        transform: scale(1);
+        order: -1;
+    }
+    
+    .package-card.featured:hover {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .packages-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .trust-badges {
+        gap: 20px;
+    }
+    
+    .trust-item {
+        width: calc(50% - 20px);
+        justify-content: center;
+    }
+}
+
+@keyframes float {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(30px, -30px) scale(1.1); }
+}
+
+
+
+
+
+/*  */
+
+
+
