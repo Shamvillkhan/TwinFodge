@@ -937,3 +937,73 @@
         height: 37px; /* Slightly smaller on mobile */
     }
 }
+/* Footer Logo Styles */
+.footer-logo {
+    margin-bottom: 40px;
+}
+
+.footer-logo-img {
+    max-width: 160px;
+    height: auto;
+    display: block;
+}
+
+/* If you want a clickable logo */
+.footer-logo a {
+    display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-logo-img {
+        max-width: 140px;
+    }
+}
+
+
+
+/* ===== EXPERTISE TAGS STYLES ===== */
+.expertise-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0 10px;
+    justify-content: center;
+}
+
+.expertise-tag {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(114, 176, 29, 0.1);
+    color: #72b01d;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 176, 29, 0.3);
+    transition: all 0.3s ease;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover effect */
+.expertise-tag:hover {
+    background: #72b01d;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(114, 176, 29, 0.3);
+    border-color: transparent;
+}
+
+/* Animation for tags */
+@keyframes tagPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+}
+
+.expertise-tag:hover {
+    animation: tagPulse 0.5s ease;
+}
+
+
+/* contact detail of founder */

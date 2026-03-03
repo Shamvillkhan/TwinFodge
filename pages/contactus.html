@@ -14,7 +14,11 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
-        <div class="logo">Web<span>see</span></div>
+       <a href="/" class="logo">
+        <img src="../images/Websee Logo Horizontal3.png" 
+             alt="Websee" 
+             class="logo-img">
+    </a>
         <div class="nav-links" id="navLinks">
             <a href="../index.html">Home</a>
             <a href="about.html">About</a>
@@ -37,7 +41,7 @@
     <div class="container">
         <!-- Section Header -->
         <div class="section-header" style="text-align: center !important;">
-    <span class="section-badge" style="display: inline-flex !important; margin-left: auto !important; margin-right: auto !important;">
+    <span class="section-badge" style="display: inline-flex !important; color:#72b01d; margin-left: auto !important; margin-right: auto !important;">
         <i class="fas fa-paper-plane"></i> Get In Touch
     </span>
     <h2 class="section-title" style="text-align: center !important;">Let's <span class="gradient-text">Work Together</span></h2>
@@ -54,19 +58,14 @@
                 
                 <form id="contactForm" class="contact-form">
                     <!-- Name Row - First & Last -->
-                    <div class="form-row">
+                    <div class="form-group">
                         <div class="form-group">
                             <label for="firstname">
-                                First Name <span class="required">*</span>
+                                Full Name <span class="required">*</span>
                             </label>
                             <input type="text" id="firstname" placeholder="Enter your first name" required>
                         </div>
-                        <div class="form-group">
-                            <label for="lastname">
-                                Last Name <span class="required">*</span>
-                            </label>
-                            <input type="text" id="lastname" placeholder="Enter your last name" required>
-                        </div>
+                       
                     </div>
                     
                     <!-- Email -->
@@ -238,49 +237,7 @@
                     </div>
                 </div>
 
-                <!-- Quick Contact - WhatsApp & Telegram (More relevant for India/Worldwide)
-                <div class="quick-contact">
-                    <h4>Instant connect</h4>
-                    <div class="quick-buttons">
-                        <a href="#" class="quick-btn whatsapp">
-                            <i class="fab fa-whatsapp"></i>
-                            <span>WhatsApp</span>
-                        </a>
-                        <a href="#" class="quick-btn telegram">
-                            <i class="fab fa-telegram"></i>
-                            <span>Telegram</span>
-                        </a>
-                        <a href="#" class="quick-btn zoom">
-                            <i class="fas fa-instagram"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </div>
-                </div> -->
-
-                <!-- Social Links -->
-                <!-- <div class="social-connect">
-                    <h4>Follow us</h4>
-                    <div class="social-grid">
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div> -->
+        
 
                 <!-- Trust Badge -->
                 <div class="trust-badge">
@@ -310,28 +267,34 @@
     <div class="footer-container">
         <!-- Main Footer Content -->
         <div class="footer-main">
-            <!-- Column 1 - Company Info (Enhanced) -->
+            <!-- Column 1 - Company Info with LOGO IMAGE -->
             <div class="footer-col brand-col">
+                <!-- ===== YOUR LOGO IMAGE HERE ===== -->
                 <div class="footer-logo">
-                    <span class="logo-text">Web<span class="logo-highlight">see</span></span>
+                    <img src="../images/logofooter.png" 
+                         alt="Websee Technology Solutions" 
+                         class="footer-logo-img"
+                         width="160"
+                         height="auto">
                 </div>
+                
                 <p class="company-description">Building powerful digital experiences that drive real business growth. We're not just developers — we're your growth partners.</p>
                 
-                <!-- Company Stats -->
-                <div class="company-stats">
-                    <div class="stat-item">
-                        <span class="stat-value">100+</span>
-                        <span class="stat-label">Projects</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">50+</span>
-                        <span class="stat-label">Clients</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">5+</span>
-                        <span class="stat-label">Years</span>
-                    </div>
-                </div>
+              <!-- Company Results Stats -->
+<div class="company-stats">
+    <div class="stat-item">
+        <span class="stat-value">200%</span>
+        <span class="stat-label">Average ROI</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-value">40%</span>
+        <span class="stat-label">Faster Load Times</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-value">#1</span>
+        <span class="stat-label">Google Rankings</span>
+    </div>
+</div>
 
                 <!-- Contact Info -->
                 <div class="footer-contact">
@@ -350,19 +313,19 @@
                 </div>
             </div>
 
-            <!-- Column 2 - Quick Links (Enhanced) -->
+            <!-- Column 2 - Quick Links -->
             <div class="footer-col">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
-                    <li><a href="../index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
-                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                    <li><a href="service.html"><i class="fas fa-chevron-right"></i> Services</a></li>
-                    <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Our Work</a></li>
-                    <li><a href="contactus.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="./pages/about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="./pages/service.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                    <li><a href="./pages/projects.html"><i class="fas fa-chevron-right"></i> Our Work</a></li>
+                    <li><a href="./pages/contactus.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
                 </ul>
             </div>
 
-            <!-- Column 3 - Services (Enhanced with icons) -->
+            <!-- Column 3 - Services -->
             <div class="footer-col">
                 <h4 class="footer-title">Our Services</h4>
                 <ul class="footer-links services-links">
@@ -376,7 +339,7 @@
                 </ul>
             </div>
 
-            <!-- Column 4 - Newsletter & Social (Enhanced) -->
+            <!-- Column 4 - Newsletter & Social -->
             <div class="footer-col">
                 <h4 class="footer-title">Stay Connected</h4>
                 <p class="newsletter-text">Subscribe to get updates on new projects and insights.</p>
@@ -390,44 +353,21 @@
                     </div>
                 </form>
 
-                <!-- Social Links with Hover Effects -->
-<div class="social-section">
-    <h5 class="social-title">Follow us</h5>
-    <div class="social-grid" style="grid-template-columns: repeat(4, 1fr);">
-        <!-- Instagram -->
-        <a href="#" class="social-link instagram" target="_blank">
-            <i class="fab fa-instagram"></i>
-        </a>
-        
-        <!-- LinkedIn -->
-        <a href="#" class="social-link linkedin" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        
-        <!-- Twitter -->
-        <a href="#" class="social-link twitter" target="_blank">
-            <i class="fab fa-twitter"></i>
-        </a>
-        
-        <!-- WhatsApp -->
-        <a href="#" class="social-link whatsapp" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-    </div>
-</div>
-
-
-                <!-- App Download (Optional) -->
-                <div class="app-download">
-                    <p>Get our app</p>
-                    <div class="app-buttons">
-                        <a href="#" class="app-btn">
-                            <i class="fab fa-apple"></i>
-                            <span>App Store</span>
+                <!-- Social Links -->
+                <div class="social-section">
+                    <h5 class="social-title">Follow us</h5>
+                    <div class="social-grid" style="grid-template-columns: repeat(4, 1fr);">
+                        <a href="#" class="social-link instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="app-btn">
-                            <i class="fab fa-google-play"></i>
-                            <span>Google Play</span>
+                        <a href="#" class="social-link linkedin" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>
                 </div>
@@ -438,7 +378,7 @@
         <div class="awards-bar">
             <div class="award-item">
                 <i class="fas fa-trophy"></i>
-                <span>Best Web Agency 2024</span>
+                <span>Best Web Agency 2023</span>
             </div>
             <div class="award-item">
                 <i class="fas fa-medal"></i>
@@ -448,13 +388,9 @@
                 <i class="fas fa-star"></i>
                 <span>4.9/5 Client Rating</span>
             </div>
-            <div class="award-item">
-                <i class="fas fa-shield-alt"></i>
-                <span>ISO Certified</span>
-            </div>
         </div>
 
-        <!-- Footer Bottom with Payment Methods & Legal -->
+        <!-- Footer Bottom -->
         <div class="footer-bottom">
             <div class="bottom-content">
                 <div class="copyright">

@@ -4104,14 +4104,11 @@ section {
     transform: translateY(-5px);
 }
 
-.social-link.facebook:hover { background: #1877f2; }
-.social-link.twitter:hover { background: #1da1f2; }
-.social-link.instagram:hover { background: #e4405f; }
-.social-link.linkedin:hover { background: #0077b5; }
-.social-link.github:hover { background: #333; }
-.social-link.youtube:hover { background: #ff0000; }
-.social-link.whatsapp:hover { background: #25d366; }
-.social-link.telegram:hover { background: #0088cc; }
+.social-link.twitter { background: #1da1f2; }
+.social-link.instagram { background: #e4405f; }
+.social-link.linkedin { background: #0077b5; }
+.social-link.whatsapp { background: #25d366; }
+
 
 /* App Download */
 .app-download p {
@@ -5400,6 +5397,9 @@ html {
     max-width: 100%;
     height: auto;
 }
+
+
+
 
 
 
