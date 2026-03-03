@@ -916,3 +916,24 @@
 
 
 /*  */
+/* Logo Styles */
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    height: 45px; /* Fixed height */
+    text-decoration: none;
+}
+
+.navbar .logo-img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar .logo {
+        height: 37px; /* Slightly smaller on mobile */
+    }
+}
