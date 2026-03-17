@@ -608,6 +608,7 @@
     <!-- Founders Section - Modern & Trust-Building -->
 
   <!-- Contact Section - Modern with All Fields -->
+<!-- Contact Section - Modern with All Fields -->
 <section class="contact" id="contact">
     <!-- Animated Background -->
     <div class="contact-background">
@@ -634,117 +635,68 @@
                     <p>Fill out the form below and we'll get back to you within 24 hours</p>
                 </div>
                 
-                <form id="contactForm" class="contact-form">
-                    <!-- Name Row - First & Last -->
+                <form id="contactForm" class="contact-form" onsubmit="return false;">
+                    <!-- Full Name -->
                     <div class="form-group">
-                        <div class="form-group">
-                            <label for="firstname">
-                                Full Name <span class="required">*</span>
-                            </label>
-                            <input type="text" id="firstname" placeholder="Enter your first name" required>
-                        </div>
-                        
+                        <label for="full_name">
+                            Full Name <span class="required">*</span>
+                        </label>
+                        <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
                     </div>
+                    
                     <!-- Email -->
                     <div class="form-group">
-                        <label for="email">
+                        <label for="email_address">
                             Email Address <span class="required">*</span>
                         </label>
-                        <input type="email" id="email" placeholder="Enter your email address" required>
+                        <input type="email" id="email_address" name="email_address" placeholder="Enter your email address" required>
                     </div>
                     
                     <!-- Phone -->
                     <div class="form-group">
-                        <label for="phone">
+                        <label for="phone_number">
                             Phone Number
                         </label>
-                        <input type="tel" id="phone" placeholder="Enter your phone number">
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="Enter your phone number">
                     </div>
                     
                     <!-- Service Interested In - Dropdown -->
                     <div class="form-group">
-                        <label for="service">
+                        <label for="service_type">
                             Service Interested In <span class="required">*</span>
                         </label>
                         <div class="select-wrapper">
-                            <select id="service" required>
+                            <select id="service_type" name="service_type" required>
                                 <option value="" disabled selected>Select a service</option>
-                                <option value="web-development">Web Development</option>
-                                <option value="ui-ux-design">UI/UX Design</option>
-                                <option value="digital-marketing">Digital Marketing</option>
-                                <option value="social-media">Social Media Management</option>
-                                <option value="seo">SEO Optimization</option>
-                                <option value="brand-strategy">Brand Strategy</option>
-                                <option value="ecommerce">E-commerce Development</option>
-                                <option value="mobile-app">Mobile App Development</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="UI/UX Design">UI/UX Design</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Social Media Management">Social Media Management</option>
+                                <option value="SEO Optimization">SEO Optimization</option>
+                                <option value="Brand Strategy">Brand Strategy</option>
+                                <option value="E-commerce Development">E-commerce Development</option>
+                                <option value="Mobile App Development">Mobile App Development</option>
                             </select>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                     </div>
-                    
-                    
-                    
-                    <!-- Project Timeline - Dropdown -->
-                    <!-- <div class="form-group">
-                        <label for="timeline">
-                            Project Timeline
-                        </label>
-                        <div class="select-wrapper">
-                            <select id="timeline">
-                                <option value="" disabled selected>When do you need this completed?</option>
-                                <option value="asap">ASAP (Within 1-2 weeks)</option>
-                                <option value="1-month">Within 1 month</option>
-                                <option value="1-3-months">1-3 months</option>
-                                <option value="3-6-months">3-6 months</option>
-                                <option value="flexible">Flexible / Just exploring</option>
-                            </select>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                    </div> -->
                     
                     <!-- Project Details - Textarea -->
                     <div class="form-group">
-                        <label for="message">
+                        <label for="project_details">
                             Project Details <span class="required">*</span>
                         </label>
-                        <textarea id="message" placeholder="Tell us about your project requirements, goals, and any specific features you need..." required></textarea>
+                        <textarea id="project_details" name="project_details" placeholder="Tell us about your project requirements, goals, and any specific features you need..." required></textarea>
                     </div>
                     
-                    <!-- How did you hear about us? (Optional extra field) -->
-                    <div class="form-group">
-                        <label for="source">
-                            How did you hear about us?
-                        </label>
-                        <div class="select-wrapper">
-                            <select id="source">
-                                <option value="" disabled selected>Select an option</option>
-                                <option value="google">Google Search</option>
-                                <option value="social">Social Media</option>
-                                <option value="friend">Friend/Colleague Referral</option>
-                                <option value="linkedin">LinkedIn</option>
-                                <option value="upwork">Upwork/Freelance Platform</option>
-                                <option value="other">Other</option>
-                            </select>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                    </div>
-                    
-                    <!-- Privacy Policy Checkbox -->
-                    <div class="form-options">
-                        <label class="checkbox-label">
-                            <input type="checkbox" required>
-                            <span>I agree to the <a href="#" class="privacy-link">privacy policy</a> and consent to being contacted</span>
-                        </label>
-                    </div>
-                    
-                    <button type="submit" class="submit-btn">
+                    <button type="button" id="sendMessageBtn" class="submit-btn">
                         <span>Send Message</span>
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </form>
             </div>
 
-            <!-- Right Side - Contact Info (Remote-Focused) -->
+            <!-- Right Side - Contact Info -->
             <div class="contact-info-wrapper">
                 <!-- Quick Response Badge -->
                 <div class="response-badge">
@@ -761,7 +713,7 @@
                     </div>
                 </div>
 
-                <!-- Contact Cards (Updated for Remote) -->
+                <!-- Contact Cards -->
                 <div class="info-cards">
                     <!-- Email Card - Primary -->
                     <div class="info-card featured">
@@ -796,8 +748,6 @@
                     </div>
                 </div>
 
-                
-
                 <!-- Trust Badge -->
                 <div class="trust-badge">
                     <i class="fas fa-shield-alt"></i>
@@ -805,12 +755,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- FAQ Teaser -->
-        <!-- <div class="faq-teaser">
-            <p>Have questions? Check our <a href="#faq">FAQ section</a> or</p>
-            <a href="#contact" class="faq-btn">Schedule a free consultation</a>
-        </div> -->
     </div>
 </section>
    <!-- Footer - Ultimate Edition -->
@@ -991,5 +935,71 @@
     </div>
 </footer>
    <script src="./assets/js/script.js"></script>
+   
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+    // Initialize EmailJS
+    emailjs.init('-sUTO4yzMFt_u9nhk');
+    console.log('EmailJS initialized');
+
+    // Add click event to the button
+    document.getElementById('sendMessageBtn').addEventListener('click', function() {
+        console.log('Button clicked');
+        
+        // Get form values
+        const name = document.getElementById('full_name').value;
+        const email = document.getElementById('email_address').value;
+        const phone = document.getElementById('phone_number').value;
+        const service = document.getElementById('service_type').value;
+        const message = document.getElementById('project_details').value;
+        
+        console.log('Values:', {name, email, phone, service, message});
+        
+        // Check required fields
+        if (!name || !email || !service || !message) {
+            alert('Please fill in all required fields');
+            return;
+        }
+        
+        // Validate email
+        if (!email.includes('@') || !email.includes('.')) {
+            alert('Please enter a valid email address');
+            return;
+        }
+        
+        // Show loading
+        const btn = this;
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '<span>Sending...</span> <i class="fas fa-spinner fa-spin"></i>';
+        btn.disabled = true;
+        
+        // Send email
+        emailjs.send('service_2mmk4xa', 'template_0k4rvlp', {
+            name: name,
+            email: email,
+            phone: phone || 'Not provided',
+            service: service,
+            message: message
+        }).then(function(response) {
+            console.log('Success:', response);
+            alert('Message sent successfully! We\'ll get back to you within 24 hours.');
+            document.getElementById('contactForm').reset();
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        }).catch(function(error) {
+            console.log('Error:', error);
+            alert('Error sending message. Please try again or email us directly.');
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        });
+    });
+</script>
+
+
+<script>console.log(document.getElementById('firstname'));
+console.log(document.getElementById('email'));
+console.log(document.getElementById('service'));
+console.log(document.getElementById('message'));</script>
 </body>
 </html>

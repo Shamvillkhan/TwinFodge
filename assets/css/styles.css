@@ -5390,16 +5390,10 @@ html {
     box-sizing: border-box;
 }
 
-.about img, 
-.about svg, 
+.about img,
+.about svg,
 .about iframe,
 .about video {
     max-width: 100%;
     height: auto;
 }
-
-
-
-
-
-

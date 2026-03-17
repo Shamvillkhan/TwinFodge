@@ -1391,9 +1391,6 @@
     font-size: 16px;
 }
 
-/* ========================================
-   VISUAL ELEMENTS (RIGHT SIDE)
-   ======================================== */
 
 .about-visual {
     position: relative;
@@ -1636,9 +1633,7 @@
 .bar6 { height: 110px; animation-delay: 0.6s; }
 .bar7 { height: 90px; animation-delay: 0.7s; }
 
-/* ========================================
-   VALUE PROPOSITION CARDS
-   ======================================== */
+
 
 .value-prop {
     margin: 80px 0;
@@ -1729,9 +1724,6 @@
     color: #666;
 }
 
-/* ========================================
-   PROCESS SHOWCASE
-   ======================================== */
 
 .process-showcase {
     margin: 80px 0;
@@ -1800,9 +1792,6 @@
     background: linear-gradient(90deg, #72b01d, #a0e05c);
 }
 
-/* ========================================
-   IMPACT STATS
-   ======================================== */
 
 .impact-stats {
     display: flex;
@@ -1839,9 +1828,6 @@
     background: rgba(114, 176, 29, 0.3);
 }
 
-/* ========================================
-   CTA MODERN
-   ======================================== */
 
 .cta-modern {
     margin-top: 80px;
@@ -1901,18 +1887,14 @@
     transform: translateX(5px);
 }
 
-/* ========================================
-   FLOATING ANIMATIONS
-   ======================================== */
+
 
 @keyframes float {
     0%, 100% { transform: translate(0, 0) scale(1); }
     50% { transform: translate(30px, -30px) scale(1.1); }
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-   ======================================== */
+
 
 @media (max-width: 1200px) {
     .container {
